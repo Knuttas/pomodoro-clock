@@ -1,0 +1,31 @@
+body {
+  background: #d6ffc5;
+  text-align: center;
+  font-family: monospace;
+  font-size: 28px;
+    display: flex;
+    height: 100h;
+    justify-content: center;
+    align-items: center;
+}
+.length-control {
+  width: 250px
+}
+button {
+  background: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.btn-level {
+  display: inline-block;
+}
+.length-control {
+  display: inline-block;
+}
+.btn-level:nth-child(3) {
+  width: 40px;
+}
+#time-left {
+  font-size: 70px
+}
